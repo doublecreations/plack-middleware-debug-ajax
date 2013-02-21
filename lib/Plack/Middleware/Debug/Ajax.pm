@@ -176,7 +176,8 @@ sub run {
                      ).css("background-color", data.color)
                   );
 
-                  // Trim log 
+                  // Trim log (0-indexed)
+                  \$('#${id}-ajaxTable > tbody > tr:eq($log_limit)').remove();
                   \$('#${id}-ajaxTable > tbody > tr:gt($log_limit)').remove();
                }
 
