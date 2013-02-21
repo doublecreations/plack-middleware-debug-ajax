@@ -134,7 +134,7 @@ sub run {
    ## Settings
    ##
 
-   my $log_limit = $self->log_limit // 50;
+   my $log_limit = $self->log_limit || 50;
 
    ##
    ## Set titles
