@@ -26,7 +26,7 @@ To activate this panel:
          $app;
    }
 
-If you're using Dancer, you can enable the panel via your config.yml:
+If you're using L<Dancer>, you can enable the panel via your F<config.yml>:
 
    plack_middlewares:
      -

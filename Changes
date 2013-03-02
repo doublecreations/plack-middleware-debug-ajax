@@ -1,6 +1,11 @@
 Revision history for perl module Plack::Middleware::Debug::Ajax
 
-0.02 2009-07-17
+0.03
+
+  * Fixed bad date in Changes file
+  * Added some formatting codes to the POD
+
+0.02 2013-02-21
 
   * Remove usage of '//' for perl 5.8 compatibility
   * Fix off-by-one bug in log_limit setting
